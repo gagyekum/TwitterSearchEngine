@@ -1,0 +1,17 @@
+.twitter-profile {
+	margin: 1rem;
+}
+
+.twitter-profile img {
+    width: 75px;
+}
+
+.twitter-profile .info {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.twitter-profile .name {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
