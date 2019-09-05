@@ -6,11 +6,11 @@ A simple search engine built on top of Twitter standard API build with Python Dj
 2. Open terminal and run `source venv/bin/activate`
 3. Run `pip install -r requirements.txt`
 4. create a file with name .env on the root of the project and replace its content with this: <br />
-   `SECRET_KEY=<secret_key> <br />
+   SECRET_KEY=<secret_key> <br />
    TWITTER_API_KEY=<twitter_api_key> <br />
    TWITTER_API_SECRET=<twitter_api_secret> <br />
    TWITTER_ACCESS_TOKEN=<twitter_access_token_key> <br />
-   TWITTER_ACCESS_TOKEN_SECRET=<twitter_access_token_secret>`
+   TWITTER_ACCESS_TOKEN_SECRET=<twitter_access_token_secret>
 5. Run `python manage.py runserver`
 6. Run `cd frontend` and run `yarn start`
 
