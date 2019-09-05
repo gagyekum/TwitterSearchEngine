@@ -4,7 +4,7 @@ class SearchBar extends React.Component {
   state = { searchTerm: "" };
 
   handleSubmit = e => {
-    if (this.props.isBusy) {
+    if (this.props.isBusy || this.state.searchTerm.trim() === '') {
       return;
     }
 
